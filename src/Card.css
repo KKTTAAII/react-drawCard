@@ -1,0 +1,10 @@
+.Card {
+      /* Absolute position */
+      left: 0px;
+      position: absolute;
+      top: 0px;
+
+      /* Take full size */
+      height: 100%;
+      width: 100%;
+}
