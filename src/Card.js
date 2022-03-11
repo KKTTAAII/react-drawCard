@@ -1,10 +1,10 @@
 import React from "react";
 import "./Card.css";
 
-const Card = ({ imageUrl }) => {
+const Card = ({ imageUrl, name }) => {
   return (
     <div className="Card">
-      <img src={imageUrl}></img>
+      <img src={imageUrl} alt={name}></img>
     </div>
   );
 };

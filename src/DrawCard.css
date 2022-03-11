@@ -13,11 +13,11 @@
 }
 
 .DrawCard-card-out {
+    margin: 0 auto;
     position: absolute;
+    top: 350px;
     font-size: 50px;
     z-index: 10;
-    margin-top: -100px;
-    margin-left: 150px;
     width: 300px;
     font-weight: bolder;
 }
